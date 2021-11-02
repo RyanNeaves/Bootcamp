@@ -1,0 +1,22 @@
+var a = "50";
+var b = 50;
+var c = 100;
+var d = c % b;
+var e = c / 2;
+
+var expression1 = (b === e);
+var expression2 = (e < d);
+// exp.1 true
+// exp.2 false 
+// Use comparison operators so all expressions below log to the console as true
+console.log(a == b);
+console.log(b === e);
+console.log(c > b);
+console.log(d >= 0);
+console.log("expression1",!expression1)
+console.log("expression2",expression2)
+// Use logical operators so all expressions below log to the console as true
+console.log(expression1 || expression2);
+console.log( !!expression1 || expression2);
+
+// !! = not not = true. 
